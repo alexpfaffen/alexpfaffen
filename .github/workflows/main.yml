@@ -17,7 +17,7 @@ jobs:
           github_user_name: alexpfaffen
           svg_out_path: dist/github-contribution-grid-snake.svg
           
-          #  - palette:     A preset of color, one of [github, github-dark, github-light]
+          #  github-dark
           outputs: dist/github-snake-dark.svg?palette=github-dark
 
       - uses: crazy-max/ghaction-github-pages@v2.1.3
